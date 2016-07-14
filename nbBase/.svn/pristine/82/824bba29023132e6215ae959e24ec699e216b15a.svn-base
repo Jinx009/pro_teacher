@@ -1,0 +1,50 @@
+.weui_mask_additional{
+	opacity:0.5; 
+	background:#0f0f0f; 
+	display:block;
+}
+
+.peng_button{
+	display:block;
+	bottom:10%;
+	right:10%;
+	width:4em;
+	height:4em;
+	line-height:4em;
+	position:fixed;
+	text-align:center;
+	background:#039b02;
+	color:#f0f0f0;
+	text-size:10;
+	z-index:1;
+	border:6px solid #039b02;
+	-moz-border-radius: 59px;
+	-webkit-border-radius: 59px;
+	border-radius:59px;
+}
+
+.peng_button_font{
+	font-size:2em; 
+	font-weight:bolder;
+}
+
+.content{
+	width:100%;
+	height:auto;
+}
+
+.menu_item{
+	text-overflow:ellipsis;
+	text-overflow: ellipsis;/* IE/Safari */
+	-ms-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;/* Opera */
+	text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.weui_actionsheet_hidden{
+	display:none;	
+}

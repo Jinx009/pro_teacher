@@ -1,0 +1,48 @@
+body{
+	 background: #f0f0f0;
+}
+.number_adjust_button_minus{
+	display:block;
+	width:2.2em;
+	height:1em;
+	line-height:1em;
+	text-align:center;
+	background:#ffffff;
+	color:#039b02;
+
+	font-family: "Microsoft YaHei" ! important;
+	border:0px solid #039b02;
+	-moz-border-radius: 59px;
+	-webkit-border-radius: 59px;
+	border-radius:59px;
+	margin-right:1em;
+	margin-left:1em;
+}
+
+.number_adjust_button_minus:active{
+	background:#039b02;
+	color:#f0f0f0;
+}
+
+.number_adjust_button_plus{
+	display:block;
+	width:2.2em;
+	height:1em;
+	line-height:1em;
+	text-align:center;
+	
+	color:#039b02;
+
+	font-family: "Microsoft YaHei" ! important;
+	border:0px solid #039b02;
+	-moz-border-radius: 59px;
+	-webkit-border-radius: 59px;
+	border-radius:59px;
+	margin-right:1em;
+	margin-left:1em;
+}
+
+.number_adjust_button_plus:active{
+	background:#039b02;
+	color:#f0f0f0;
+}

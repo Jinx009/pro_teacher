@@ -1,0 +1,99 @@
+.sample_div{
+	ilter:alpha(opacity=10);  
+	  height:100%;
+      -moz-opacity:0.1;  
+      -khtml-opacity: 0.1;  
+      opacity: 0.1;
+      width:100%;
+      background-image:url(../../img/sample-stamp.png);
+      position:fixed;
+      top:0px;
+      pointer-events:none;
+      z-index:3;
+}
+
+.wxReady_indicator_success{
+	width:100%;
+	height:1px;
+	background:#42b93b;
+}
+
+.wxReady_indicator_fail{
+	width:100%;
+	height:1px;
+	background:#d51216;
+}
+
+.class_show {
+	display : block;
+}
+
+.class_hide {
+	display : none;
+}
+
+
+.img_frame{
+	background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img_frame.contain{
+	-webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.tag_div{
+	background: #f0f0f0;
+    font-size: 0.6em;
+    min-width: 3em;
+    line-height: 2em;
+    text-align: center;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    border-radius: 0.4em;
+    margin-left: 0.2em;
+    margin-right: 0.3em;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    display: inline-block;
+    width:5em;
+}
+
+.tag_div.checked{
+	background-color: #07A09B;
+    color: #f0f0f0;
+}
+
+.msg_list_bd{
+	margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 0.5em 0.5em;
+    border: 1px solid #cacbcb;
+    box-shadow: 3px 3px 0px #ddd;
+    -moz-box-shadow: 3px 3px 0px #ddd;
+    -webkit-box-shadow: 3px 3px 0px #ddd;
+    margin: 0.5em;
+    border-radius: 0.5em;
+}
+
+.weui_btn{
+	border:1px solid rgba(0,0,0,0.2);
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.weui_btn:after{
+	border:0px solid rgba(0,0,0,0.2);
+	overflow: hidden;
+	border-radius: 10px;
+}
